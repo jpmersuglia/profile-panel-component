@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #393841;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    display: flex;
+    /* align-content: center;
+    justify-content: center; */
+}
+
+.container{
+    background: #42414b;
+    color: #f9f9f9;
+    border-radius: 5px;
+    /*Modify this for later use*/
+    margin: 10em 0 0 10em;
+    width: 280px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding: 1em;
+}
+
+.main{
+    padding-left: .3em;
+    padding-top: 1em;
+}
+.main h3{
+    margin: .3em 0 0 .3em;
+    font-weight: 600;
+}
+.main h5{
+    margin: 0 0 1em .5em;
+    font-weight: 400;
+    color: #d3d3d3;
+}
+
+.main a{
+    text-decoration: none;
+    color: #fff;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f39974, #e68b42);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f39974, #e68b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    border-radius: 3px;
+    font-weight: 600;
+    margin: 2em 0 0 .4em;
+    padding: .3em .8em;
+}
+
+.headerart{
+    padding: 1em 1em;
+}
+
+.headerimg{
+    height: 60px;
+    display: absolute;
+    border-radius: 50%;
+    border: 7px solid #3d3b44;
+}
+
+hr{
+    color: #525252;
+    margin: 0 1em .5em 1em;
+}
+
+.accounts{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding: 1em;
+}
+
+.account{
+    display: column;
+    position: relative;
+    margin: 0 0 0 3em;
+    padding: 0 0 0 1em;
+}
+.accounts h3{
+    margin: .3em 0 0 .3em;
+    font-weight: 600;
+}
+.accounts h5{
+    margin: 0 0 2em .5em;
+    font-weight: 400;
+    color: #b9b9b9;
+}
+
+.accoart{
+    align-items: center;
+}
+
+.accimg{
+    align-items: center;
+    position: absolute;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em 0 1em;
+}
+
+.foot .add{
+    text-decoration: none;
+    color: #d3d3d3;
+    border: 1px dashed #282828;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.foot .signout{
+    text-decoration: none;
+    color: #d3d3d3;
+    border-radius: 3px;
+    border: 1px solid #282828;
+    font-weight: 300;
+    /* margin: 2em 0 0 .4em; */
+    padding: .4em 2em; 
+}
