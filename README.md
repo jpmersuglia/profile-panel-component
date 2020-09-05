@@ -1,4 +1,4 @@
 # Profile Panel Component
 
-imgedit
+<img  src='./Capture.PNG' height='120px'>
 
