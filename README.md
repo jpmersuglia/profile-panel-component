@@ -1,4 +1,4 @@
 # Profile Panel Component
 
-<img  src='./Capture.PNG' height='120px'>
+<img  src='./Capture.PNG' height='550px'>
 
